@@ -1,0 +1,24 @@
+# Виртуальное окружение
+.venv/
+venv/
+
+# Кэш Python
+__pycache__/
+*.pyc
+
+# База данных
+*.db
+*.sqlite
+*.sqlite3
+
+# Настройки редактора (launch.json оставляем в репозитории)
+.vscode/*
+!.vscode/launch.json
+
+# Файлы ОС
+.DS_Store
+Thumbs.db
+
+# Тесты и покрытие
+.pytest_cache/
+.coverage
