@@ -14,6 +14,7 @@ rectangle "Система учёта статей в журнале" {
     usecase "Принять/отклонить статью" as UC_Decide
     usecase "Формировать отчёты и статистику" as UC_Reports
     usecase "Управлять рубриками и выпусками" as UC_ManageRubrics
+    usecase "Зарегистирировать автора" as US_Registration
 }
 
 Author -- UC_Login
@@ -24,5 +25,6 @@ Editor -- UC_Login
 Editor -- UC_Decide
 Editor -- UC_Reports
 Editor -- UC_ManageRubrics
+Editor -- US_Registration
 
 @enduml
