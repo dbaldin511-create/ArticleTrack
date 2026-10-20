@@ -67,8 +67,8 @@ VALUES ('Computer science'), ('Mathematics'), ('Physics');
 
 INSERT INTO users (name, surname, patronymic, login, password_hash, user_role)
 VALUES
-('Алексей', 'Петров', 'Игоревич', 'petrov', '0001', 1),
-('Мария', 'Сидорова', 'Олеговна', 'sidorova', '0002', 1),
+('Петров', 'Алексей', 'Игоревич', 'petrov', '0001', 1),
+('Сидорова', 'Мария', 'Олеговна', 'sidorova', '0002', 1),
 
 INSERT INTO articles (title, abstract, file_path, rubric_id, submitted_at, editor_id, decided_at, status)
 VALUES
